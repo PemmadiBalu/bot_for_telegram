@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Define your bot token here
-Token = "7363259019:AAGkKvkNaXleroSmGadugTm5iFGKg7afid4"
+Token = "8277778188:AAHTwjSxttz5pGLnKmBCXQIyK49Iq1kTNsw"
 
 # Command handlers
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -80,3 +80,4 @@ if __name__ == '__main__':
 
     print("Bot is running...")
     app.run_polling()
+
